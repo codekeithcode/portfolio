@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink, 
 } from 'reactstrap';
-import {GoHome} from "react-icons/go";
+import {GoHome, GoInfo} from "react-icons/go";
 import MyLogo from "../public/mylogo"
 
 
@@ -27,7 +27,10 @@ const Header = (props) => {
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink href="/"><GoHome />&nbsp; Home</NavLink>
-            </NavItem>            
+            </NavItem>         
+            <NavItem>
+              <NavLink href="/about"><GoInfo />&nbsp; About</NavLink>
+            </NavItem>      
           </Nav>          
         </Collapse>
       </Navbar>

@@ -1,7 +1,9 @@
-export default () => (
-    <div>
-        <h1>About Page</h1>
-        <img src="/static/logo.png" alt="logo" />
-    </div>
-)
+import Navbar from "../layout/Navbar";
 
+const About = () => 
+<div>
+    <Navbar />
+    <h1>About Page</h1>
+</div>;   
+ 
+export default About;
