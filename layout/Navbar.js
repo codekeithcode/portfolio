@@ -20,12 +20,12 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="primary" dark expand="md">
+      <Navbar color="success" dark expand="md">
         <NavbarBrand href="/"><MyLogo /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
+          <Nav className="mr-auto" navbar  style={{ fontWeight: "600", fontSize: "1.2rem"}} >
+            <NavItem >
               <NavLink href="/"><GoHome />&nbsp; Home</NavLink>
             </NavItem>         
             <NavItem>

@@ -1,8 +1,10 @@
 import Navbar from "../layout/Navbar";
+import Welcome from "../layout/Welcome";
+
 
 const Index = () => 
 <div>
     <Navbar />
-    <h1>Home Page</h1>
+    <Welcome />
 </div>;    
 export default Index;
